@@ -1,0 +1,59 @@
+
+/* css */
+main {
+    width: 402px; height: 874px;
+    background-image: url(../images/bg_2.jpg);
+    background-size: 100% auto;
+    margin: 0 auto;
+    position: relative;
+}
+main * {color: #fff;}
+/* --------------------------------------top */
+main .top {
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+    gap: 6px;
+    padding: var(--spacing-xl) 0 0 0;
+}
+main .top p {}
+main .top .pst {}
+main .top .weather {}
+main .top .info {
+    width:150px;
+    display: flex; flex-flow: row wrap;
+    justify-content: center;
+    gap: var(--spacing-xs);
+}
+main .top .info .temper {}
+main .top .info .max {}
+main .top .info .min {}
+/* --------------------------------------bottom */
+main .btm {
+    width: 100%;
+    position: absolute; right:0; bottom:0;
+    overflow: auto;
+}
+main .btm .notice {
+    text-align: center;
+    margin: var(--spacing-sm);
+    position: sticky; left: 0; top:0;
+}
+main .btm .time_wrap {
+    width: max-content;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: var(--spacing-md) 0 var(--spacing-lg) 0;
+    gap: 26px
+}
+main .btm .time_wrap li {
+    width: calc(100% / 13);
+    gap: 4px;
+    display: flex; flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+main .btm .time_wrap li .time {
+    width: max-content;
+}
+main .btm .time_wrap li .img {}
+main .btm .time_wrap li .temperature {}

@@ -1,0 +1,15 @@
+:root {
+    --font-size-s: 0.875rem; /* 14 */
+    --font-size-m: 0.875rem; /* 14 */
+    --font-size-basic: 1rem; /* 16 */
+    --font-size-title: 2rem; /* 32 */
+    --font-size-xl: 3.375rem; /* 54 */
+
+    --spacing-xs: 6px;
+    --spacing-sm: 12px;
+    --spacing-basic: 16px;
+    --spacing-md: 20px;
+    --spacing-lg: 70px;
+    --spacing-xl: 130px;
+    --spacing-xxl: 140px;
+}
